@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{6c04ac7f-9cc0-45c0-bb08-e4c8b7ba48bf}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{35dcfdae-9e1e-46d4-a6d8-56b92f81ad72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MiniBall">
+      <UniqueIdentifier>{56d71b4f-25f4-4a16-867e-1912e5c8ca65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="A7ExportModel.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginMain.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBall\BoundingSphere.cpp">
+      <Filter>MiniBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBall\BoundingVolume.cpp">
+      <Filter>MiniBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBall\Matrix.cpp">
+      <Filter>MiniBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBall\Plane.cpp">
+      <Filter>MiniBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBall\Point.cpp">
+      <Filter>MiniBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBall\Quaternion.cpp">
+      <Filter>MiniBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBall\Sphere.cpp">
+      <Filter>MiniBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBall\Timer.cpp">
+      <Filter>MiniBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBall\Tuple.cpp">
+      <Filter>MiniBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBall\Vector.cpp">
+      <Filter>MiniBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBall\ViewFrustum.cpp">
+      <Filter>MiniBall</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="A7ExportModel.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBall\BoundingSphere.h">
+      <Filter>MiniBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBall\BoundingVolume.h">
+      <Filter>MiniBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBall\Matrix.h">
+      <Filter>MiniBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBall\Plane.h">
+      <Filter>MiniBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBall\Point.h">
+      <Filter>MiniBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBall\Quaternion.h">
+      <Filter>MiniBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBall\Sphere.h">
+      <Filter>MiniBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBall\Timer.h">
+      <Filter>MiniBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBall\Tuple.h">
+      <Filter>MiniBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBall\Vector.h">
+      <Filter>MiniBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBall\ViewFrustum.h">
+      <Filter>MiniBall</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

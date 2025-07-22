@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{b51a4308-2930-498c-a455-a00d32b6866d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{67718fdd-a8cf-47f0-b359-88b4e268f094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\Sounds">
+      <UniqueIdentifier>{f6d8655c-0e80-4752-a3df-70aab189a998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{66526464-f348-4062-8d40-0f8e96dddbd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StreamFadeOff">
+      <UniqueIdentifier>{285607a8-cbc6-4ad5-a984-f52d7acae724}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GlobalsLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleSounds.cpp">
+      <Filter>Sound\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundsSerialize.cpp">
+      <Filter>Sound\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamingSound.cpp">
+      <Filter>Sound\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundObjectFactory.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamFadeOff.cpp">
+      <Filter>StreamFadeOff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleSounds.h">
+      <Filter>Sound\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamingSound.h">
+      <Filter>Sound\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonStructs.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SFX.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundObjectFactory.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamFadeOff.h">
+      <Filter>StreamFadeOff</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SFX.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Sound.def">
+      <Filter>Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

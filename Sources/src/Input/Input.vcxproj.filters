@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{5936f8c5-ba12-4f26-85c6-c62b02b51dfd}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{45b4c55d-1956-45b2-8ace-327554ddc1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{fe5114c9-11bf-49c8-8d57-038edee1b44a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GlobalsLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="InputAPI.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBinder.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputObjectFactory.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSlider.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Visitors.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputAPI.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBind.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBinder.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHelper.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputObjectFactory.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSlider.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTypes.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitors.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Input.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Input.def">
+      <Filter>Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

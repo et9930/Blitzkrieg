@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{a1a3c5f1-108b-453f-8d47-d52cb8eb92d0}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="GameX">
+      <UniqueIdentifier>{b84b8f22-5a40-4e4d-b2b1-8b5f129ad2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\World">
+      <UniqueIdentifier>{4715b471-7e94-41ea-98fa-dd410397ff4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface">
+      <UniqueIdentifier>{cfee3c3d-e2ec-4a1a-a2fe-1912550296d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission">
+      <UniqueIdentifier>{7937d2b3-882e-4bde-acc9-872a9d32dbe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\Multyplayer">
+      <UniqueIdentifier>{9a989ac1-3487-4935-8bba-a9eea1fe8d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\Multyplayer\GamesList">
+      <UniqueIdentifier>{ed4852c6-a966-4438-ab8c-9b05ea4ad51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\Multyplayer\StartingGame">
+      <UniqueIdentifier>{35d18243-9028-458c-b43b-e82150f472f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\Multyplayer\Chat">
+      <UniqueIdentifier>{d408b724-7920-4360-b541-ca906be45da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\Multyplayer\Common No. 1">
+      <UniqueIdentifier>{d67e2a9e-4c4c-44d3-bd25-e8d1fe097f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\Multyplayer\CreateGame">
+      <UniqueIdentifier>{0713a491-996e-47a3-972f-7ba7533f97ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\Multyplayer\MapSettings No. 1">
+      <UniqueIdentifier>{fd620640-ea7c-4f21-a36c-d75b8e3c4e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\Multyplayer\AddressBook">
+      <UniqueIdentifier>{a7e26e27-79eb-4fee-bafc-48c6bf0869f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\PlayersInterface">
+      <UniqueIdentifier>{78a10623-a7a8-43ed-b7c2-15d13512cd89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\Options">
+      <UniqueIdentifier>{1df91d98-f9f6-44fa-a70c-15c80caabf45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\UnitPerformance">
+      <UniqueIdentifier>{e7d6c7c7-1fc0-485a-aa56-74845cf4081c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\SwitchMode">
+      <UniqueIdentifier>{60721449-ba32-41f5-8aab-4315eb73e8c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\InterMission\NewDepotUpgrades">
+      <UniqueIdentifier>{717364e5-62b9-497f-a32d-c41c15e4d058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\Mission">
+      <UniqueIdentifier>{691fb994-2485-48aa-83ba-c9491e40de27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\PlayMovie">
+      <UniqueIdentifier>{0c896de3-690e-4cf4-8275-f8adcd49818f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\PlayerProfile">
+      <UniqueIdentifier>{dc8d573a-2f18-4a58-a9de-a13363c712bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\MapSettings">
+      <UniqueIdentifier>{8dfd6ebb-cdc9-42c5-9274-db832fb597ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\Popups">
+      <UniqueIdentifier>{ece2b235-c49f-463c-a0c0-f9d9c8fc8567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\Interface\MessageBox">
+      <UniqueIdentifier>{031bb726-27e9-4b22-a974-538728143037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameX\MessageReaction">
+      <UniqueIdentifier>{fb21156a-0ddd-4de9-941d-bb6e81ba9e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AckManager">
+      <UniqueIdentifier>{adb7663c-30af-4b01-b51b-e9727ed4c9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{89fb6d4f-4d5e-4c13-86e7-3a70d62a70d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{3edf0174-b7c9-4a5f-b8fb-0b572ce19079}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GlobalsLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldClient.cpp">
+      <Filter>GameX\World</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldClientActions.cpp">
+      <Filter>GameX\World</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplayerGamesList.cpp">
+      <Filter>GameX\Interface\InterMission\Multyplayer\GamesList</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplayerStartingGame.cpp">
+      <Filter>GameX\Interface\InterMission\Multyplayer\StartingGame</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceMPChat.cpp">
+      <Filter>GameX\Interface\InterMission\Multyplayer\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatWrapper.cpp">
+      <Filter>GameX\Interface\InterMission\Multyplayer\Common No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceMPCreateGame.cpp">
+      <Filter>GameX\Interface\InterMission\Multyplayer\CreateGame</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceMPMapSettings.cpp">
+      <Filter>GameX\Interface\InterMission\Multyplayer\MapSettings No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceMPAddressBook.cpp">
+      <Filter>GameX\Interface\InterMission\Multyplayer\AddressBook</Filter>
+    </ClCompile>
+    <ClCompile Include="MPConnectionError.cpp">
+      <Filter>GameX\Interface\InterMission\Multyplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplayerCommandManagerInternal.cpp">
+      <Filter>GameX\Interface\InterMission\Multyplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayersInterface.cpp">
+      <Filter>GameX\Interface\InterMission\PlayersInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceOptionsSettings.cpp">
+      <Filter>GameX\Interface\InterMission\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionEntryWrapper.cpp">
+      <Filter>GameX\Interface\InterMission\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceAfterMissionPopups.cpp">
+      <Filter>GameX\Interface\InterMission\UnitPerformance</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceUnitPerformance.cpp">
+      <Filter>GameX\Interface\InterMission\UnitPerformance</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceSwitchModeTo.cpp">
+      <Filter>GameX\Interface\InterMission\SwitchMode</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceNewDepotUpgrades.cpp">
+      <Filter>GameX\Interface\InterMission\NewDepotUpgrades</Filter>
+    </ClCompile>
+    <ClCompile Include="AddUnitToMission.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="Campaign.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="encyclopedia.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="InterMission.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="Mission.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleMedal.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="TotalEncyclopedia.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="UIState.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitsPool.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeUnit.cpp">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClCompile>
+    <ClCompile Include="iMissionInternal.cpp">
+      <Filter>GameX\Interface\Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="QuitMission.cpp">
+      <Filter>GameX\Interface\Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayMovieInterface.cpp">
+      <Filter>GameX\Interface\PlayMovie</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceStartDialog.cpp">
+      <Filter>GameX\Interface\PlayerProfile</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSettingsWrapper.cpp">
+      <Filter>GameX\Interface\MapSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseList.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCampaign.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomChapter.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomList.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMission.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneList.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="IMLoadMission.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="IMSaveMission.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="IMTutorial.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceIMModsList.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadMission.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGainLevel.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplayList.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveMission.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveReplay.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="SwitchToNextChapter.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialList.cpp">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceMessageBox.cpp">
+      <Filter>GameX\Interface\MessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="UIConsts.cpp">
+      <Filter>GameX\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMapInfo.cpp">
+      <Filter>GameX\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMessageReaction.cpp">
+      <Filter>GameX\MessageReaction</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageReactionINternal.cpp">
+      <Filter>GameX\MessageReaction</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageReactionSerialize.cpp">
+      <Filter>GameX\MessageReaction</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionObjectFactory.cpp">
+      <Filter>GameX</Filter>
+    </ClCompile>
+    <ClCompile Include="AckManager.cpp">
+      <Filter>AckManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimapCreation.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectorVisitors.h">
+      <Filter>GameX\World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldClient.h">
+      <Filter>GameX\World</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerGamesList.h">
+      <Filter>GameX\Interface\InterMission\Multyplayer\GamesList</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerStartingGame.h">
+      <Filter>GameX\Interface\InterMission\Multyplayer\StartingGame</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceMPChat.h">
+      <Filter>GameX\Interface\InterMission\Multyplayer\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatWrapper.h">
+      <Filter>GameX\Interface\InterMission\Multyplayer\Common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="ListControlWrapper.h">
+      <Filter>GameX\Interface\InterMission\Multyplayer\Common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceMPCreateGame.h">
+      <Filter>GameX\Interface\InterMission\Multyplayer\CreateGame</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceMPMapSettings.h">
+      <Filter>GameX\Interface\InterMission\Multyplayer\MapSettings No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceMPAddressBook.h">
+      <Filter>GameX\Interface\InterMission\Multyplayer\AddressBook</Filter>
+    </ClInclude>
+    <ClInclude Include="MPConnectionError.h">
+      <Filter>GameX\Interface\InterMission\Multyplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MuliplayerToUIConsts.h">
+      <Filter>GameX\Interface\InterMission\Multyplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerCommandManager.h">
+      <Filter>GameX\Interface\InterMission\Multyplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerCommandManagerInternal.h">
+      <Filter>GameX\Interface\InterMission\Multyplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayersInterface.h">
+      <Filter>GameX\Interface\InterMission\PlayersInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceOptionsSettings.h">
+      <Filter>GameX\Interface\InterMission\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionEntryWrapper.h">
+      <Filter>GameX\Interface\InterMission\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="UIOptions.h">
+      <Filter>GameX\Interface\InterMission\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceAfterMissionPopups.h">
+      <Filter>GameX\Interface\InterMission\UnitPerformance</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceUnitPerformance.h">
+      <Filter>GameX\Interface\InterMission\UnitPerformance</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceSwitchModeTo.h">
+      <Filter>GameX\Interface\InterMission\SwitchMode</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceNewDepotUpgrades.h">
+      <Filter>GameX\Interface\InterMission\NewDepotUpgrades</Filter>
+    </ClInclude>
+    <ClInclude Include="AddUnitToMission.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="Campaign.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonId.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="encyclopedia.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="etypes.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="InterMission.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="Mission.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleMedal.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="TotalEncyclopedia.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="UIState.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitsPool.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTypes.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeUnit.h">
+      <Filter>GameX\Interface\InterMission</Filter>
+    </ClInclude>
+    <ClInclude Include="iMission.h">
+      <Filter>GameX\Interface\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="iMissionInternal.h">
+      <Filter>GameX\Interface\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionInterfaceEscapeMenu.h">
+      <Filter>GameX\Interface\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="QuitMission.h">
+      <Filter>GameX\Interface\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayMovieInterface.h">
+      <Filter>GameX\Interface\PlayMovie</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceStartDialog.h">
+      <Filter>GameX\Interface\PlayerProfile</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSettingsWrapper.h">
+      <Filter>GameX\Interface\MapSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseList.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCampaign.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomChapter.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomList.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMission.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneList.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="IMLoadMission.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="IMSaveMission.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="IMTutorial.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceIMModsList.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadMission.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGainLevel.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplayList.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveLoadCommon.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveMission.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveReplay.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="SwitchToNextChapter.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialList.h">
+      <Filter>GameX\Interface\Popups</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceMessageBox.h">
+      <Filter>GameX\Interface\MessageBox</Filter>
+    </ClInclude>
+    <ClInclude Include="UIConsts.h">
+      <Filter>GameX\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMapInfo.h">
+      <Filter>GameX\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMessageReaction.h">
+      <Filter>GameX\MessageReaction</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageReaction.h">
+      <Filter>GameX\MessageReaction</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageReactionINternal.h">
+      <Filter>GameX\MessageReaction</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionObjectFactory.h">
+      <Filter>GameX</Filter>
+    </ClInclude>
+    <ClInclude Include="AckManager.h">
+      <Filter>AckManager</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CutScenesHelper.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MinimapCreation.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameTT.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="GameTT.def">
+      <Filter>Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

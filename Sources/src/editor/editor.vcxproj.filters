@@ -1,0 +1,944 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{7abb3094-5f31-4dee-8729-e598180d3b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames">
+      <UniqueIdentifier>{164ead59-abca-459e-b27c-794473c8ebdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Animations Frame">
+      <UniqueIdentifier>{a64bbcd9-223a-4ec5-91fa-ba4326645b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\GUI Frame">
+      <UniqueIdentifier>{48fb2969-b59d-4d2b-adfa-d8abb81253ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\GUI Frame\TemplateTree">
+      <UniqueIdentifier>{f202a71a-2cf3-47cb-8e28-ee78fd6ed3b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Sprite Compose Frame">
+      <UniqueIdentifier>{42682a3d-8de4-4b13-a001-fc8d64a058d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Effects">
+      <UniqueIdentifier>{997e16ff-092e-4aba-ae21-02e329014b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Object Composer">
+      <UniqueIdentifier>{d0dc3f44-83f5-4121-82d4-ea534e1de9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Mesh Composer">
+      <UniqueIdentifier>{1bfc8c13-6edf-4dc5-8873-8bdeb410aa51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Weapon Composer">
+      <UniqueIdentifier>{2415e6b4-772a-4afa-8ca7-13a5b47411e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Building Composer">
+      <UniqueIdentifier>{ebf955b9-4f17-43ad-b1ba-da0f8d37e209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\TileSet Composer">
+      <UniqueIdentifier>{6064f472-9566-4b11-be64-f9cf09590f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Fence Composer">
+      <UniqueIdentifier>{ae1cc667-ab6b-4635-9eee-1f80bc9ec3ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Particles">
+      <UniqueIdentifier>{0f873b38-ad76-4b4a-8d30-a2870fa25581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Particles\Refs">
+      <UniqueIdentifier>{83850c35-fdc8-4b9c-af7b-1d586077af6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Trenches">
+      <UniqueIdentifier>{ae38e074-c31b-4a96-bfdc-8fec1976877c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Squad Composer">
+      <UniqueIdentifier>{dae6d379-b95f-4a3a-86b9-0ed02fd12bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Mine Composer">
+      <UniqueIdentifier>{1ffc1cc2-7c78-47a8-87dc-815f352462e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Bridge Composer">
+      <UniqueIdentifier>{ae256b3c-7ebb-4a74-bf2f-8abeefcc69bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Mission Composer">
+      <UniqueIdentifier>{8e26531b-b1e3-4f21-b3cc-a75596acb7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Chapter Composer">
+      <UniqueIdentifier>{ad81465b-307f-42f7-bdee-6e2de0812183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Campaign Composer">
+      <UniqueIdentifier>{0827738a-9564-4a67-98ff-c567c480a5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\3D Roads">
+      <UniqueIdentifier>{67b4cfa9-59ca-4526-b5f3-bbe8679df513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\3D Rivers">
+      <UniqueIdentifier>{530b3398-0955-4382-a9f6-4968c9faa7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Frames\Medals">
+      <UniqueIdentifier>{945506b2-838d-451a-95cd-d158d7174060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Common Controls">
+      <UniqueIdentifier>{610fea5e-479e-403d-aa57-0a9bc8966f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\References">
+      <UniqueIdentifier>{d5694eeb-d476-4547-9ac3-527c83e3bf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ee1e678b-bc78-442a-91e0-3f9b69247230}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\For VSS">
+      <UniqueIdentifier>{0dc8ced7-4676-4c61-a183-e15ea17890e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{b9044eb8-ce13-4d9a-8de6-14ee523367b2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="ObjectInspector">
+      <UniqueIdentifier>{6de3d0b9-10a3-402d-803f-b816f1546cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MultyTree">
+      <UniqueIdentifier>{532e5ac7-e441-4e6e-b3ae-9f21d4d9553d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationFrm.cpp">
+      <Filter>Editor\Frames\Animations Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationView.cpp">
+      <Filter>Editor\Frames\Animations Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimTreeItem.cpp">
+      <Filter>Editor\Frames\Animations Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateTree.cpp">
+      <Filter>Editor\Frames\GUI Frame\TemplateTree</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateTreeDock.cpp">
+      <Filter>Editor\Frames\GUI Frame\TemplateTree</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIFrame.cpp">
+      <Filter>Editor\Frames\GUI Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIFrame2.cpp">
+      <Filter>Editor\Frames\GUI Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="GUITreeItem.cpp">
+      <Filter>Editor\Frames\GUI Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIundo.cpp">
+      <Filter>Editor\Frames\GUI Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIView.cpp">
+      <Filter>Editor\Frames\GUI Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteFrm.cpp">
+      <Filter>Editor\Frames\Sprite Compose Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteTreeItem.cpp">
+      <Filter>Editor\Frames\Sprite Compose Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteView.cpp">
+      <Filter>Editor\Frames\Sprite Compose Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectFrm.cpp">
+      <Filter>Editor\Frames\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectView.cpp">
+      <Filter>Editor\Frames\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="EffTreeItem.cpp">
+      <Filter>Editor\Frames\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFrm.cpp">
+      <Filter>Editor\Frames\Object Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectView.cpp">
+      <Filter>Editor\Frames\Object Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjTreeItem.cpp">
+      <Filter>Editor\Frames\Object Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFrm.cpp">
+      <Filter>Editor\Frames\Mesh Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshTreeItem.cpp">
+      <Filter>Editor\Frames\Mesh Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshView.cpp">
+      <Filter>Editor\Frames\Mesh Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponFrm.cpp">
+      <Filter>Editor\Frames\Weapon Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponTreeItem.cpp">
+      <Filter>Editor\Frames\Weapon Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponView.cpp">
+      <Filter>Editor\Frames\Weapon Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildDirExp.cpp">
+      <Filter>Editor\Frames\Building Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildFire.cpp">
+      <Filter>Editor\Frames\Building Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildFrm.cpp">
+      <Filter>Editor\Frames\Building Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildShoot.cpp">
+      <Filter>Editor\Frames\Building Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildSmoke.cpp">
+      <Filter>Editor\Frames\Building Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildTreeItem.cpp">
+      <Filter>Editor\Frames\Building Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildView.cpp">
+      <Filter>Editor\Frames\Building Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="GridFrm.cpp">
+      <Filter>Editor\Frames\Building Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Editor\Frames\TileSet Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSetFrm.cpp">
+      <Filter>Editor\Frames\TileSet Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSetView.cpp">
+      <Filter>Editor\Frames\TileSet Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="TileTreeItem.cpp">
+      <Filter>Editor\Frames\TileSet Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="FenceFrm.cpp">
+      <Filter>Editor\Frames\Fence Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="FenceTreeItem.cpp">
+      <Filter>Editor\Frames\Fence Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="FenceView.cpp">
+      <Filter>Editor\Frames\Fence Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSourceData.cpp">
+      <Filter>Editor\Frames\Particles\Refs</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokinParticleSourceData.cpp">
+      <Filter>Editor\Frames\Particles\Refs</Filter>
+    </ClCompile>
+    <ClCompile Include="Track.cpp">
+      <Filter>Editor\Frames\Particles\Refs</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleFrm.cpp">
+      <Filter>Editor\Frames\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleTreeItem.cpp">
+      <Filter>Editor\Frames\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleView.cpp">
+      <Filter>Editor\Frames\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="TrenchFrm.cpp">
+      <Filter>Editor\Frames\Trenches</Filter>
+    </ClCompile>
+    <ClCompile Include="TrenchTreeItem.cpp">
+      <Filter>Editor\Frames\Trenches</Filter>
+    </ClCompile>
+    <ClCompile Include="TrenchView.cpp">
+      <Filter>Editor\Frames\Trenches</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadFrm.cpp">
+      <Filter>Editor\Frames\Squad Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadTreeItem.cpp">
+      <Filter>Editor\Frames\Squad Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadView.cpp">
+      <Filter>Editor\Frames\Squad Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="MineFrm.cpp">
+      <Filter>Editor\Frames\Mine Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="MineTreeItem.cpp">
+      <Filter>Editor\Frames\Mine Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="MineView.cpp">
+      <Filter>Editor\Frames\Mine Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BridgeCommon.cpp">
+      <Filter>Editor\Frames\Bridge Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BridgeFire.cpp">
+      <Filter>Editor\Frames\Bridge Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BridgeFrm.cpp">
+      <Filter>Editor\Frames\Bridge Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BridgeSmoke.cpp">
+      <Filter>Editor\Frames\Bridge Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BridgeTreeItem.cpp">
+      <Filter>Editor\Frames\Bridge Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="BridgeView.cpp">
+      <Filter>Editor\Frames\Bridge Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionFrm.cpp">
+      <Filter>Editor\Frames\Mission Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionTreeItem.cpp">
+      <Filter>Editor\Frames\Mission Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionView.cpp">
+      <Filter>Editor\Frames\Mission Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="ChapterFrm.cpp">
+      <Filter>Editor\Frames\Chapter Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="ChapterTreeItem.cpp">
+      <Filter>Editor\Frames\Chapter Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="ChapterView.cpp">
+      <Filter>Editor\Frames\Chapter Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitSide.cpp">
+      <Filter>Editor\Frames\Chapter Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="CampaignFrm.cpp">
+      <Filter>Editor\Frames\Campaign Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="CampaignTreeItem.cpp">
+      <Filter>Editor\Frames\Campaign Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="CampaignView.cpp">
+      <Filter>Editor\Frames\Campaign Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFrm.cpp">
+      <Filter>Editor\Frames\Campaign Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageView.cpp">
+      <Filter>Editor\Frames\Campaign Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="3dRoadFrm.cpp">
+      <Filter>Editor\Frames\3D Roads</Filter>
+    </ClCompile>
+    <ClCompile Include="3dRoadTreeItem.cpp">
+      <Filter>Editor\Frames\3D Roads</Filter>
+    </ClCompile>
+    <ClCompile Include="3dRoadView.cpp">
+      <Filter>Editor\Frames\3D Roads</Filter>
+    </ClCompile>
+    <ClCompile Include="3dRiverFrm.cpp">
+      <Filter>Editor\Frames\3D Rivers</Filter>
+    </ClCompile>
+    <ClCompile Include="3dRiverTreeItem.cpp">
+      <Filter>Editor\Frames\3D Rivers</Filter>
+    </ClCompile>
+    <ClCompile Include="3dRiverView.cpp">
+      <Filter>Editor\Frames\3D Rivers</Filter>
+    </ClCompile>
+    <ClCompile Include="MedalFrm.cpp">
+      <Filter>Editor\Frames\Medals</Filter>
+    </ClCompile>
+    <ClCompile Include="MedalTreeItem.cpp">
+      <Filter>Editor\Frames\Medals</Filter>
+    </ClCompile>
+    <ClCompile Include="MedalView.cpp">
+      <Filter>Editor\Frames\Medals</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Editor\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="frames.cpp">
+      <Filter>Editor\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="localization.cpp">
+      <Filter>Editor\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Editor\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="MyOpenFileDialog.cpp">
+      <Filter>Editor\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentFrame.cpp">
+      <Filter>Editor\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeItem.cpp">
+      <Filter>Editor\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeItemFactory.cpp">
+      <Filter>Editor\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowseDialog.cpp">
+      <Filter>Editor\Common Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionButton.cpp">
+      <Filter>Editor\Common Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionButtonDock.cpp">
+      <Filter>Editor\Common Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ETreeCtrl.cpp">
+      <Filter>Editor\Common Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyFrame.cpp">
+      <Filter>Editor\Common Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyFrameDock.cpp">
+      <Filter>Editor\Common Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureOptions.cpp">
+      <Filter>Editor\Common Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyDockBar.cpp">
+      <Filter>Editor\Common Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleIcon.cpp">
+      <Filter>Editor\Common Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ThumbList.cpp">
+      <Filter>Editor\Common Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ThumbListDockBar.cpp">
+      <Filter>Editor\Common Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeDockWnd.cpp">
+      <Filter>Editor\Common Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="BatchModeDialog.cpp">
+      <Filter>Editor\References</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildCompose.cpp">
+      <Filter>Editor\References</Filter>
+    </ClCompile>
+    <ClCompile Include="MODDialog.cpp">
+      <Filter>Editor\References</Filter>
+    </ClCompile>
+    <ClCompile Include="MultySelDialog.cpp">
+      <Filter>Editor\References</Filter>
+    </ClCompile>
+    <ClCompile Include="NewDirDialog.cpp">
+      <Filter>Editor\References</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDialog.cpp">
+      <Filter>Editor\References</Filter>
+    </ClCompile>
+    <ClCompile Include="RefDlg.cpp">
+      <Filter>Editor\References</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference.cpp">
+      <Filter>Editor\References</Filter>
+    </ClCompile>
+    <ClCompile Include="SetDirDialog.cpp">
+      <Filter>Editor\References</Filter>
+    </ClCompile>
+    <ClCompile Include="editor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWnd.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimapCreation.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteCompose.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalsLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="COI\CtrlObjectInspector.cpp">
+      <Filter>ObjectInspector</Filter>
+    </ClCompile>
+    <ClCompile Include="COI\OIBrowEdit.cpp">
+      <Filter>ObjectInspector</Filter>
+    </ClCompile>
+    <ClCompile Include="COI\OIColorEdit.cpp">
+      <Filter>ObjectInspector</Filter>
+    </ClCompile>
+    <ClCompile Include="COI\OICombo.cpp">
+      <Filter>ObjectInspector</Filter>
+    </ClCompile>
+    <ClCompile Include="COI\OIEdit.cpp">
+      <Filter>ObjectInspector</Filter>
+    </ClCompile>
+    <ClCompile Include="COI\OIReference.cpp">
+      <Filter>ObjectInspector</Filter>
+    </ClCompile>
+    <ClCompile Include="COI\PropView.cpp">
+      <Filter>ObjectInspector</Filter>
+    </ClCompile>
+    <ClCompile Include="COI\Variant.cpp">
+      <Filter>ObjectInspector</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\CTreeItem.cpp">
+      <Filter>MultyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\FrameTree.cpp">
+      <Filter>MultyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\MultiTree.cpp">
+      <Filter>MultyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\MultiTreeEditBox.cpp">
+      <Filter>MultyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\MultiTreeSlider.cpp">
+      <Filter>MultyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\PercentDialog.cpp">
+      <Filter>MultyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\TreeItemComboBox.cpp">
+      <Filter>MultyTree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationFrm.h">
+      <Filter>Editor\Frames\Animations Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationView.h">
+      <Filter>Editor\Frames\Animations Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimTreeItem.h">
+      <Filter>Editor\Frames\Animations Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateTree.h">
+      <Filter>Editor\Frames\GUI Frame\TemplateTree</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateTreeDock.h">
+      <Filter>Editor\Frames\GUI Frame\TemplateTree</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIFrame.h">
+      <Filter>Editor\Frames\GUI Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="GUITreeItem.h">
+      <Filter>Editor\Frames\GUI Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIundo.h">
+      <Filter>Editor\Frames\GUI Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIView.h">
+      <Filter>Editor\Frames\GUI Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteFrm.h">
+      <Filter>Editor\Frames\Sprite Compose Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteTreeItem.h">
+      <Filter>Editor\Frames\Sprite Compose Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteView.h">
+      <Filter>Editor\Frames\Sprite Compose Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectFrm.h">
+      <Filter>Editor\Frames\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectView.h">
+      <Filter>Editor\Frames\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffTreeItem.h">
+      <Filter>Editor\Frames\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFrm.h">
+      <Filter>Editor\Frames\Object Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectView.h">
+      <Filter>Editor\Frames\Object Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjTreeItem.h">
+      <Filter>Editor\Frames\Object Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFrm.h">
+      <Filter>Editor\Frames\Mesh Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshTreeItem.h">
+      <Filter>Editor\Frames\Mesh Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshView.h">
+      <Filter>Editor\Frames\Mesh Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponFrm.h">
+      <Filter>Editor\Frames\Weapon Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponTreeItem.h">
+      <Filter>Editor\Frames\Weapon Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponView.h">
+      <Filter>Editor\Frames\Weapon Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildFrm.h">
+      <Filter>Editor\Frames\Building Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildTreeItem.h">
+      <Filter>Editor\Frames\Building Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildView.h">
+      <Filter>Editor\Frames\Building Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="GridFrm.h">
+      <Filter>Editor\Frames\Building Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSetFrm.h">
+      <Filter>Editor\Frames\TileSet Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSetView.h">
+      <Filter>Editor\Frames\TileSet Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="TileTreeItem.h">
+      <Filter>Editor\Frames\TileSet Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="FenceFrm.h">
+      <Filter>Editor\Frames\Fence Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="FenceTreeItem.h">
+      <Filter>Editor\Frames\Fence Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="FenceView.h">
+      <Filter>Editor\Frames\Fence Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleFrm.h">
+      <Filter>Editor\Frames\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleTreeItem.h">
+      <Filter>Editor\Frames\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleView.h">
+      <Filter>Editor\Frames\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="TrenchFrm.h">
+      <Filter>Editor\Frames\Trenches</Filter>
+    </ClInclude>
+    <ClInclude Include="TrenchTreeItem.h">
+      <Filter>Editor\Frames\Trenches</Filter>
+    </ClInclude>
+    <ClInclude Include="TrenchView.h">
+      <Filter>Editor\Frames\Trenches</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadFrm.h">
+      <Filter>Editor\Frames\Squad Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadTreeItem.h">
+      <Filter>Editor\Frames\Squad Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadView.h">
+      <Filter>Editor\Frames\Squad Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="MineFrm.h">
+      <Filter>Editor\Frames\Mine Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="MineTreeItem.h">
+      <Filter>Editor\Frames\Mine Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="MineView.h">
+      <Filter>Editor\Frames\Mine Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="BridgeFrm.h">
+      <Filter>Editor\Frames\Bridge Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="BridgeTreeItem.h">
+      <Filter>Editor\Frames\Bridge Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="BridgeView.h">
+      <Filter>Editor\Frames\Bridge Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionFrm.h">
+      <Filter>Editor\Frames\Mission Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionTreeItem.h">
+      <Filter>Editor\Frames\Mission Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionView.h">
+      <Filter>Editor\Frames\Mission Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="ChapterFrm.h">
+      <Filter>Editor\Frames\Chapter Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="ChapterTreeItem.h">
+      <Filter>Editor\Frames\Chapter Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="ChapterView.h">
+      <Filter>Editor\Frames\Chapter Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitSide.h">
+      <Filter>Editor\Frames\Chapter Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="CampaignFrm.h">
+      <Filter>Editor\Frames\Campaign Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="CampaignTreeItem.h">
+      <Filter>Editor\Frames\Campaign Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="CampaignView.h">
+      <Filter>Editor\Frames\Campaign Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFrm.h">
+      <Filter>Editor\Frames\Campaign Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageView.h">
+      <Filter>Editor\Frames\Campaign Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="3dRoadFrm.h">
+      <Filter>Editor\Frames\3D Roads</Filter>
+    </ClInclude>
+    <ClInclude Include="3dRoadTreeItem.h">
+      <Filter>Editor\Frames\3D Roads</Filter>
+    </ClInclude>
+    <ClInclude Include="3dRoadView.h">
+      <Filter>Editor\Frames\3D Roads</Filter>
+    </ClInclude>
+    <ClInclude Include="3dRiverFrm.h">
+      <Filter>Editor\Frames\3D Rivers</Filter>
+    </ClInclude>
+    <ClInclude Include="3dRiverTreeItem.h">
+      <Filter>Editor\Frames\3D Rivers</Filter>
+    </ClInclude>
+    <ClInclude Include="3dRiverView.h">
+      <Filter>Editor\Frames\3D Rivers</Filter>
+    </ClInclude>
+    <ClInclude Include="MedalFrm.h">
+      <Filter>Editor\Frames\Medals</Filter>
+    </ClInclude>
+    <ClInclude Include="MedalTreeItem.h">
+      <Filter>Editor\Frames\Medals</Filter>
+    </ClInclude>
+    <ClInclude Include="MedalView.h">
+      <Filter>Editor\Frames\Medals</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Editor\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="frames.h">
+      <Filter>Editor\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="localization.h">
+      <Filter>Editor\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Editor\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="MyOpenFileDialog.h">
+      <Filter>Editor\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="ParentFrame.h">
+      <Filter>Editor\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeItem.h">
+      <Filter>Editor\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeItemFactory.h">
+      <Filter>Editor\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowseDialog.h">
+      <Filter>Editor\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionButton.h">
+      <Filter>Editor\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionButtonDock.h">
+      <Filter>Editor\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ETreeCtrl.h">
+      <Filter>Editor\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyFrame.h">
+      <Filter>Editor\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyFrameDock.h">
+      <Filter>Editor\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureOptions.h">
+      <Filter>Editor\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyDockBar.h">
+      <Filter>Editor\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleIcon.h">
+      <Filter>Editor\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ThumbList.h">
+      <Filter>Editor\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ThumbListDockBar.h">
+      <Filter>Editor\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeDockWnd.h">
+      <Filter>Editor\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="BatchModeDialog.h">
+      <Filter>Editor\References</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildCompose.h">
+      <Filter>Editor\References</Filter>
+    </ClInclude>
+    <ClInclude Include="MODDialog.h">
+      <Filter>Editor\References</Filter>
+    </ClInclude>
+    <ClInclude Include="MultySelDialog.h">
+      <Filter>Editor\References</Filter>
+    </ClInclude>
+    <ClInclude Include="NewDirDialog.h">
+      <Filter>Editor\References</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDialog.h">
+      <Filter>Editor\References</Filter>
+    </ClInclude>
+    <ClInclude Include="RefDlg.h">
+      <Filter>Editor\References</Filter>
+    </ClInclude>
+    <ClInclude Include="Reference.h">
+      <Filter>Editor\References</Filter>
+    </ClInclude>
+    <ClInclude Include="SetDirDialog.h">
+      <Filter>Editor\References</Filter>
+    </ClInclude>
+    <ClInclude Include="editor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWnd.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="MinimapCreation.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteCompose.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files\For VSS</Filter>
+    </ClInclude>
+    <ClInclude Include="Specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="COI\CtrlObjectInspector.h">
+      <Filter>ObjectInspector</Filter>
+    </ClInclude>
+    <ClInclude Include="COI\OIBrowEdit.h">
+      <Filter>ObjectInspector</Filter>
+    </ClInclude>
+    <ClInclude Include="COI\OIColorEdit.h">
+      <Filter>ObjectInspector</Filter>
+    </ClInclude>
+    <ClInclude Include="COI\OICombo.h">
+      <Filter>ObjectInspector</Filter>
+    </ClInclude>
+    <ClInclude Include="COI\OIEdit.h">
+      <Filter>ObjectInspector</Filter>
+    </ClInclude>
+    <ClInclude Include="COI\OIReference.h">
+      <Filter>ObjectInspector</Filter>
+    </ClInclude>
+    <ClInclude Include="COI\PropView.h">
+      <Filter>ObjectInspector</Filter>
+    </ClInclude>
+    <ClInclude Include="COI\Variant.h">
+      <Filter>ObjectInspector</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\CTreeItem.h">
+      <Filter>MultyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\FrameTree.h">
+      <Filter>MultyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\MultiTree.h">
+      <Filter>MultyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\MultiTreeEditBox.h">
+      <Filter>MultyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\MultiTreeSlider.h">
+      <Filter>MultyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\PercentDialog.h">
+      <Filter>MultyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\TreeItemComboBox.h">
+      <Filter>MultyTree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="editor.rc">
+      <Filter>Resource Files\For VSS</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="a7_editor.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp3droa.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bridge_t.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\building.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\chapter.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\editor.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\effect_t.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fence_to.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_edit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\infantry.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mesh_too.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mission_.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MultiTreeConrtol.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\objectb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\particle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\squad_to.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tileset.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\treebmp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\editor.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\hand.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

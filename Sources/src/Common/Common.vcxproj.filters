@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{9bee2c0c-c93a-400b-85a4-54f6bec6da3c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{e48a74b1-962a-4967-8eb2-3aa488717aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\MapObjects">
+      <UniqueIdentifier>{f20645d1-c4ec-4520-96ac-8837c7ad3dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Visitors">
+      <UniqueIdentifier>{ed3bfc98-00d5-4291-a28a-2fa2af53874f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{9a93fc63-dd5e-4725-abd4-b93c30a63de5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBridge.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBuilding.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MOEntrenchment.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MOObject.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MOProjectile.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MOSquad.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MOUnit.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MOUnitInfantry.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MOUnitMechanical.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectStatus.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Passangers.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayEffect.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="UISquadElement.h">
+      <Filter>World\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObjVisitors.h">
+      <Filter>World\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="Season.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldBase.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceScreenBase.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="AdditionalActions.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Icons.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseGame.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>World\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBridge.cpp">
+      <Filter>World\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBuilding.cpp">
+      <Filter>World\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MOEntrenchment.cpp">
+      <Filter>World\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MOObject.cpp">
+      <Filter>World\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MOProjectile.cpp">
+      <Filter>World\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MOSquad.cpp">
+      <Filter>World\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MOUnit.cpp">
+      <Filter>World\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MOUnitInfantry.cpp">
+      <Filter>World\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MOUnitMechanical.cpp">
+      <Filter>World\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Passangers.cpp">
+      <Filter>World\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="UISquadElement.cpp">
+      <Filter>World\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldBase.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceScreenBase.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

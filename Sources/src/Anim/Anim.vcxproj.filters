@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{55641cc7-fe3f-46f4-9206-4464f0e6489f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{0d23ad90-761f-43ff-9f91-bf8f9ade2ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Mesh">
+      <UniqueIdentifier>{847cf857-1049-45f3-a4ee-242f365d95e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Sprite">
+      <UniqueIdentifier>{42e50311-3ece-48b4-a5a5-a6d55bf28a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effectors">
+      <UniqueIdentifier>{b81d6208-a877-4e67-a78c-fd00fd59bcea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{e5c18301-c580-4f35-8be6-85da164e09a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GlobalsLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshAnimation.cpp">
+      <Filter>Animation\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimation.cpp">
+      <Filter>Animation\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimObjectFactory.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixEffectorJogging.cpp">
+      <Filter>Effectors</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixEffectorLeveling.cpp">
+      <Filter>Effectors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshAnimation.h">
+      <Filter>Animation\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimation.h">
+      <Filter>Animation\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimObjectFactory.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Effectors.h">
+      <Filter>Effectors</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixEffectorJogging.h">
+      <Filter>Effectors</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixEffectorLeveling.h">
+      <Filter>Effectors</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="anim.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Animation.def">
+      <Filter>Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

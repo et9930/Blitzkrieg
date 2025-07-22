@@ -1,0 +1,920 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{427610c1-1578-4c18-907d-ce162316037b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Main Frame">
+      <UniqueIdentifier>{0a4fd043-7e11-4cfc-ba5e-bc056b476742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template editor">
+      <UniqueIdentifier>{cb60abe9-03a6-4f09-86b5-2c3217d83b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template editor\IUndoRedoCmd">
+      <UniqueIdentifier>{c2347ffe-04f9-4f6e-996f-e042e60a356f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template editor\VC like button">
+      <UniqueIdentifier>{4f8b8722-463b-4956-bbb4-c651ae3ba1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template editor\Propertie dialog">
+      <UniqueIdentifier>{25dfb3ea-0ec1-4c17-ba46-d2d9d4a6b7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template editor\MultiTree control">
+      <UniqueIdentifier>{17bee216-c0f1-43d2-a731-b8e169492bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template editor\State">
+      <UniqueIdentifier>{ba9d7d78-65c6-4a35-a74e-9402772971ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template editor\State\Road drawing">
+      <UniqueIdentifier>{ee1e9f7a-905c-4291-a649-369d8b2edb0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template editor\State\Object placer state">
+      <UniqueIdentifier>{7e96752f-66f7-42e7-99a1-03cd7c34992a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template editor\State\Map tool">
+      <UniqueIdentifier>{384589ea-987b-4285-b21d-523de43e3e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template editor\Unit Manipulators">
+      <UniqueIdentifier>{9f040266-7ee3-4fb6-9fdd-03341c825158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template editor\Unit Manipulators\Simple editor object">
+      <UniqueIdentifier>{c21b7938-c0f5-43c6-b6fa-ea16f20c026c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template editor\Map options dialog">
+      <UniqueIdentifier>{c57f976f-2a97-4fdf-a87c-bceb7a5aa33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Common Controls">
+      <UniqueIdentifier>{b2832d2a-692d-4c08-9c80-12d8dcb32777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Common Controls\Resize Dialog">
+      <UniqueIdentifier>{7a03d871-c404-400e-a510-a73eb75d479a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Common Controls\Direction Button">
+      <UniqueIdentifier>{c861e67f-bed1-409f-aa17-fe9663111087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Common Controls\Progress Dialog">
+      <UniqueIdentifier>{fe139cad-0296-4091-a745-4ecef8151f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs">
+      <UniqueIdentifier>{2a436e21-8b22-434e-94be-619b7b4f8409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Vector Objects Tab">
+      <UniqueIdentifier>{71646ef7-9843-49c6-8392-26579c37b581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Vector Objects Tab\VSO Tab">
+      <UniqueIdentifier>{38495a09-b6a6-482f-9973-61ddeaa1745a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Vector Objects Tab\Entrenchments Tab">
+      <UniqueIdentifier>{e0e47053-cbd1-44b8-8905-e295130f346f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Input Tabs">
+      <UniqueIdentifier>{09fcda6a-fd4b-4364-bd92-0b7794b2c7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Input Bar">
+      <UniqueIdentifier>{29de52af-c3ad-46b5-92df-3c20568db1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Toos Tab">
+      <UniqueIdentifier>{36e40643-f313-468d-91fd-ed570220095d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Toos Tab\Area Name">
+      <UniqueIdentifier>{c8237a6e-c2b2-47a1-a2b6-2ffc9bb8c796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Groups Tab">
+      <UniqueIdentifier>{a462b2b4-044a-455b-b55d-843a2785ad14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Groups Tab\Group ID">
+      <UniqueIdentifier>{d8d66c4e-6fd4-4b91-b2c0-b17208f84ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Groups Tab\Script ID">
+      <UniqueIdentifier>{de67883f-5371-407f-bfce-7d0933debf7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\AI General Tab">
+      <UniqueIdentifier>{82540d98-27b0-4317-8fe1-a785688f90a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\AI General Tab\Enter Script ID">
+      <UniqueIdentifier>{ba34d2e2-5d2f-45fb-b3ab-a02c0e735bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\AI General Tab\Enter Position Type">
+      <UniqueIdentifier>{5c0b71b6-5eeb-4dcb-8691-4d12388b06a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Terrain Tab">
+      <UniqueIdentifier>{2e273945-10b4-49a8-ad4e-d199e8e5a28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Terrain Tab\Tile Edit Tab">
+      <UniqueIdentifier>{40951811-1804-4b12-8482-9bb628a4c6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Terrain Tab\Terrain Altitudes Tab">
+      <UniqueIdentifier>{4755d34f-f7f5-4eab-bc74-be0b453dbb31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Terrain Tab\Fields Tab">
+      <UniqueIdentifier>{d1dcfaea-fe43-4eec-9aae-37e659ae3309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Objects Tab">
+      <UniqueIdentifier>{640c39b3-6293-4ccc-9c90-3e0c2e82fb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Objects Tab\Fences Tab">
+      <UniqueIdentifier>{21cb41ef-9b2e-412e-8478-b883ce1201b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Objects Tab\Simple Objects Tab">
+      <UniqueIdentifier>{4c0f8357-a15a-44dc-bf0b-3c3c9fb89919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Objects Tab\Simple Objects Tab\Diplomacy">
+      <UniqueIdentifier>{f7c85724-f851-4deb-8f0b-de2fe406b704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Objects Tab\Simple Objects Tab\Set Filter">
+      <UniqueIdentifier>{d65ef295-4ad6-47ae-a2b1-1dadb9669fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tabs\Objects Tab\Bridges Tab">
+      <UniqueIdentifier>{c1a4ab4f-c530-44b2-98b9-5f4a77c3b559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\States">
+      <UniqueIdentifier>{760c1e5b-d20e-44f6-b4ce-41a4b56cfdae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\States\Vector Objects State">
+      <UniqueIdentifier>{612d2449-5e33-458a-83ce-c2c40f2a07d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\States\Vector Objects State\Vector Stripe Objects">
+      <UniqueIdentifier>{567e7571-d360-4979-a3c2-3420daf9b20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\States\Input state">
+      <UniqueIdentifier>{152fce31-c803-4870-af08-850c55beaa62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\States\AI General State">
+      <UniqueIdentifier>{23d16f81-080b-43f6-b81a-e0c16241d476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\States\Groups State">
+      <UniqueIdentifier>{a76dab9b-58bb-40ef-a4fb-2bf01ed4033a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\States\Terrain State">
+      <UniqueIdentifier>{a14d6a1a-31ed-47d9-94bb-7cacd1fef941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\States\Terrain State\3DTerrain State">
+      <UniqueIdentifier>{6b8c6140-ed15-4fc1-8036-9f8936f7a828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\States\Terrain State\Tile drawing">
+      <UniqueIdentifier>{ec4f856e-1eb4-4d53-9fa4-c33454e34f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\States\Terrain State\Fields State">
+      <UniqueIdentifier>{fdb4ce46-50c0-4f2b-978c-231ea670e8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\States\Simple Objects State">
+      <UniqueIdentifier>{b67ceadc-5b56-4e4a-b5fb-32961f45957f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Drawing Tools">
+      <UniqueIdentifier>{20e15f10-bf51-4373-9bc8-2dab6218ee57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Mini Map">
+      <UniqueIdentifier>{20114540-4ca5-4025-b2a2-31e6b8f7dd1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\AsyncImageList">
+      <UniqueIdentifier>{ccc1a8c5-2dd3-4ae2-953e-28bafb5b92a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Manipulators">
+      <UniqueIdentifier>{3360df34-7532-4f22-92d2-73e9d25e7f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Manipulators\AIStartCommand Creation">
+      <UniqueIdentifier>{2e71b0f0-581f-491e-abf1-bf9c0c70aa78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Manipulators\ReservePosition">
+      <UniqueIdentifier>{8dd341d4-c726-4864-b27a-0cc826cd38a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Manipulators\Unit Creation">
+      <UniqueIdentifier>{e34584b4-480a-4a13-aff9-118a8edad1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Manipulators\Map Sound Info">
+      <UniqueIdentifier>{5fad237d-2cc8-4842-a190-a6e5cf06f9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Manipulators\Property Editors">
+      <UniqueIdentifier>{4bc28356-9ec6-4390-a75c-8978c1839594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Manipulators\Property Editors\PointsList">
+      <UniqueIdentifier>{a4cfa142-eb25-4756-8a6d-2da7d357b751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Manipulators\Property Editors\SelectStrings">
+      <UniqueIdentifier>{8f939d20-aff2-4ccb-a9e2-0eed3531bf5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Composers">
+      <UniqueIdentifier>{a806c3a0-4723-43f5-a3e0-152f5849f9ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Composers\RMG Containers Composer">
+      <UniqueIdentifier>{b68bc71c-a841-43e4-86f8-1f5c73e0ae07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Composers\RMG Templates Composer">
+      <UniqueIdentifier>{ec8513da-0b70-4873-af47-ed9ff67c6ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Composers\RMG Graphs Composer">
+      <UniqueIdentifier>{0757fde1-137e-4a8b-a459-b8d262717378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Composers\RMG Fields Composer">
+      <UniqueIdentifier>{75ff3381-3541-4325-a794-4a18229f86ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Composers\RMG Fields Composer\RMG Field Objects Shells">
+      <UniqueIdentifier>{3e5cec20-3857-42ca-a0a3-e26ab5b1889b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Composers\RMG Fields Composer\RMG Field Terrain Shells">
+      <UniqueIdentifier>{17ab19a7-9904-4034-bce1-ce3c7a8bdcd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Composers\RMG Fields Composer\RMG Field Heights">
+      <UniqueIdentifier>{0d14b776-8fc0-472f-8d20-a35b7954792b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Create Filter Dialog">
+      <UniqueIdentifier>{49379505-be71-4a4d-b1f9-1482ae0b618e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Create Random Map Dialog">
+      <UniqueIdentifier>{acc6ddaf-9fd6-4d1f-afb7-761779e9d1a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\New Map Dialog">
+      <UniqueIdentifier>{78d27020-a8ba-4cf0-ae7c-0f23e5f3a600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Open Map Dialog">
+      <UniqueIdentifier>{ccecf30f-bdb2-4ded-8700-176199ad6771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MOD Collector">
+      <UniqueIdentifier>{adee51f1-e2b0-4e48-beb1-de88b1283089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Map Editor Options">
+      <UniqueIdentifier>{4e496121-f166-471f-8567-57e3a56cab43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Editor Window Singleton">
+      <UniqueIdentifier>{cd772167-f66a-496e-a878-9f6169c63a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f7a931ba-02b6-49ab-8365-2d2973ceb822}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Resource VSS Check Out">
+      <UniqueIdentifier>{173c3088-aa5f-431a-8506-57ebe2c723c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{4f6db6b9-f3d0-4831-a653-50e36afccf4e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="frames.cpp">
+      <Filter>Sources\Main Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Sources\Main Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="IUndoRedoCmd.cpp">
+      <Filter>Sources\Template editor\IUndoRedoCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="PushPin.cpp">
+      <Filter>Sources\Template editor\VC like button</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertieDialog.cpp">
+      <Filter>Sources\Template editor\Propertie dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\CTreeItem.cpp">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\FrameTree.cpp">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\MultiTree.cpp">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\MultiTreeEditBox.cpp">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\MultiTreeSlider.cpp">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\PercentDialog.cpp">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClCompile>
+    <ClCompile Include="MTree ctrl\TreeItemComboBox.cpp">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClCompile>
+    <ClCompile Include="RoadDrawState.cpp">
+      <Filter>Sources\Template editor\State\Road drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPlacerState.cpp">
+      <Filter>Sources\Template editor\State\Object placer state</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolState.cpp">
+      <Filter>Sources\Template editor\State\Map tool</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorObjectItem.cpp">
+      <Filter>Sources\Template editor\Unit Manipulators\Simple editor object</Filter>
+    </ClCompile>
+    <ClCompile Include="SEditorMApObject.cpp">
+      <Filter>Sources\Template editor\Unit Manipulators</Filter>
+    </ClCompile>
+    <ClCompile Include="MapOptionsDialog.cpp">
+      <Filter>Sources\Template editor\Map options dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateEditorFrame1.cpp">
+      <Filter>Sources\Template editor</Filter>
+    </ClCompile>
+    <ClCompile Include="ResizeDialog.cpp">
+      <Filter>Sources\Common Controls\Resize Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionButton.cpp">
+      <Filter>Sources\Common Controls\Direction Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDialog.cpp">
+      <Filter>Sources\Common Controls\Progress Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TabVOVSODialog.cpp">
+      <Filter>Sources\Tabs\Vector Objects Tab\VSO Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="TrenchSetupWindow.cpp">
+      <Filter>Sources\Tabs\Vector Objects Tab\Entrenchments Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="Input3DTabWnd.cpp">
+      <Filter>Sources\Tabs\Input Tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="InputNotifyShortcutBar.cpp">
+      <Filter>Sources\Tabs\Input Tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditorBarWnd.cpp">
+      <Filter>Sources\Tabs\Input Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaNameDialog.cpp">
+      <Filter>Sources\Tabs\Toos Tab\Area Name</Filter>
+    </ClCompile>
+    <ClCompile Include="TabToolsDialog.cpp">
+      <Filter>Sources\Tabs\Toos Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="GetGroupID.cpp">
+      <Filter>Sources\Tabs\Groups Tab\Group ID</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterScriptIDDialog.cpp">
+      <Filter>Sources\Tabs\Groups Tab\Script ID</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupManagerDialog.cpp">
+      <Filter>Sources\Tabs\Groups Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="TabAIGeneralSetPositionTypeDialog.cpp">
+      <Filter>Sources\Tabs\AI General Tab\Enter Script ID</Filter>
+    </ClCompile>
+    <ClCompile Include="TabAIGeneralEnterScriptIDDialog.cpp">
+      <Filter>Sources\Tabs\AI General Tab\Enter Position Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TabAIGeneralDialog.cpp">
+      <Filter>Sources\Tabs\AI General Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="TabTileEditDialog.cpp">
+      <Filter>Sources\Tabs\Terrain Tab\Tile Edit Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="TabTerrainAltitudesDialog.cpp">
+      <Filter>Sources\Tabs\Terrain Tab\Terrain Altitudes Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="TabTerrainFieldsDialog.cpp">
+      <Filter>Sources\Tabs\Terrain Tab\Fields Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="FenceSetupWindow.cpp">
+      <Filter>Sources\Tabs\Objects Tab\Fences Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="TabSimpleObjectsDiplomacyDialog.cpp">
+      <Filter>Sources\Tabs\Objects Tab\Simple Objects Tab\Diplomacy</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupFilterDialog.cpp">
+      <Filter>Sources\Tabs\Objects Tab\Simple Objects Tab\Set Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="TabSimpleObjectsDialog.cpp">
+      <Filter>Sources\Tabs\Objects Tab\Simple Objects Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="BridgeSetupDialog.cpp">
+      <Filter>Sources\Tabs\Objects Tab\Bridges Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorStripeObjectsState.cpp">
+      <Filter>Sources\States\Vector Objects State\Vector Stripe Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorObjectsState.cpp">
+      <Filter>Sources\States\Vector Objects State</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMultiState.cpp">
+      <Filter>Sources\States\Input state</Filter>
+    </ClCompile>
+    <ClCompile Include="InputState.cpp">
+      <Filter>Sources\States\Input state</Filter>
+    </ClCompile>
+    <ClCompile Include="StateAIGeneral.cpp">
+      <Filter>Sources\States\AI General State</Filter>
+    </ClCompile>
+    <ClCompile Include="StateGroups.cpp">
+      <Filter>Sources\States\Groups State</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawShadeState.cpp">
+      <Filter>Sources\States\Terrain State\3DTerrain State</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDrawState.cpp">
+      <Filter>Sources\States\Terrain State\Tile drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTerrainFields.cpp">
+      <Filter>Sources\States\Terrain State\Fields State</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainState.cpp">
+      <Filter>Sources\States\Terrain State</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleObjectsState.cpp">
+      <Filter>Sources\States\Simple Objects State</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMapBar.cpp">
+      <Filter>Sources\Mini Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMapDialog.cpp">
+      <Filter>Sources\Mini Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMapTypes.cpp">
+      <Filter>Sources\Mini Map</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncImageList.cpp">
+      <Filter>Sources\AsyncImageList</Filter>
+    </ClCompile>
+    <ClCompile Include="AIStartCommand.cpp">
+      <Filter>Sources\Manipulators\AIStartCommand Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="AIStartCommandsDialog.cpp">
+      <Filter>Sources\Manipulators\AIStartCommand Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="ReservePosition.cpp">
+      <Filter>Sources\Manipulators\ReservePosition</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitCreation.cpp">
+      <Filter>Sources\Manipulators\Unit Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSoundInfo.cpp">
+      <Filter>Sources\Manipulators\Map Sound Info</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_PointPropertiesDialog.cpp">
+      <Filter>Sources\Manipulators\Property Editors\PointsList</Filter>
+    </ClCompile>
+    <ClCompile Include="PEPointsListDialog.cpp">
+      <Filter>Sources\Manipulators\Property Editors\PointsList</Filter>
+    </ClCompile>
+    <ClCompile Include="PESelectStringsDialog.cpp">
+      <Filter>Sources\Manipulators\Property Editors\SelectStrings</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_CreateContainerDialog.cpp">
+      <Filter>Sources\Composers\RMG Containers Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_PatchPropertiesDialog.cpp">
+      <Filter>Sources\Composers\RMG Containers Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_CreateTemplateDialog.cpp">
+      <Filter>Sources\Composers\RMG Templates Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_TemplateFieldPropertiesDialog.cpp">
+      <Filter>Sources\Composers\RMG Templates Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_TemplateGraphPropertiesDialog.cpp">
+      <Filter>Sources\Composers\RMG Templates Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_TemplateVSOPropertiesDialog.cpp">
+      <Filter>Sources\Composers\RMG Templates Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_CreateGraphDialog.cpp">
+      <Filter>Sources\Composers\RMG Graphs Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_GraphLinkPropertiesDialog.cpp">
+      <Filter>Sources\Composers\RMG Graphs Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_GraphNodePropertiesDialog.cpp">
+      <Filter>Sources\Composers\RMG Graphs Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_FieldObjectPropertiesDialog.cpp">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Objects Shells</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_FieldObjectsDialog.cpp">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Objects Shells</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_FieldObjectsShellPropertiesDialog.cpp">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Objects Shells</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_FieldTerrainDialog.cpp">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Terrain Shells</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_FieldTerrainShellPropertiesDialog.cpp">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Terrain Shells</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_FieldTilePropertiesDialog.cpp">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Terrain Shells</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_FieldHeightsDialog.cpp">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Heights</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG_CreateFieldDialog.cpp">
+      <Filter>Sources\Composers\RMG Fields Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateFilterDialog.cpp">
+      <Filter>Sources\Create Filter Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateFilterNameDialog.cpp">
+      <Filter>Sources\Create Filter Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateRandomMapDialog.cpp">
+      <Filter>Sources\Create Random Map Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMapDialog.cpp">
+      <Filter>Sources\New Map Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenMapDialog.cpp">
+      <Filter>Sources\Open Map Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MODCollector.cpp">
+      <Filter>Sources\MOD Collector</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditorOptions.cpp">
+      <Filter>Sources\Map Editor Options</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorWindowSingleton.cpp">
+      <Filter>Sources\Editor Window Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="editor.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWnd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalsLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="frames.h">
+      <Filter>Sources\Main Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Sources\Main Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="IUndoRedoCmd.h">
+      <Filter>Sources\Template editor\IUndoRedoCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="PushPin.h">
+      <Filter>Sources\Template editor\VC like button</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertieDialog.h">
+      <Filter>Sources\Template editor\Propertie dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\CTreeItem.h">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\FrameTree.h">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\MultiTree.h">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\MultiTreeEditBox.h">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\MultiTreeSlider.h">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\PercentDialog.h">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClInclude>
+    <ClInclude Include="MTree ctrl\TreeItemComboBox.h">
+      <Filter>Sources\Template editor\MultiTree control</Filter>
+    </ClInclude>
+    <ClInclude Include="RoadDrawState.h">
+      <Filter>Sources\Template editor\State\Road drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPlacerState.h">
+      <Filter>Sources\Template editor\State\Object placer state</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolState.h">
+      <Filter>Sources\Template editor\State\Map tool</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorObjectItem.h">
+      <Filter>Sources\Template editor\Unit Manipulators\Simple editor object</Filter>
+    </ClInclude>
+    <ClInclude Include="SEditorMApObject.h">
+      <Filter>Sources\Template editor\Unit Manipulators</Filter>
+    </ClInclude>
+    <ClInclude Include="MapOptionsDialog.h">
+      <Filter>Sources\Template editor\Map options dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateEditorFrame1.h">
+      <Filter>Sources\Template editor</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizeDialog.h">
+      <Filter>Sources\Common Controls\Resize Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionButton.h">
+      <Filter>Sources\Common Controls\Direction Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDialog.h">
+      <Filter>Sources\Common Controls\Progress Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TabVOVSODialog.h">
+      <Filter>Sources\Tabs\Vector Objects Tab\VSO Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="TrenchSetupWindow.h">
+      <Filter>Sources\Tabs\Vector Objects Tab\Entrenchments Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="Input3DTabWnd.h">
+      <Filter>Sources\Tabs\Input Tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="InputNotifyShortcutBar.h">
+      <Filter>Sources\Tabs\Input Tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditorBarWnd.h">
+      <Filter>Sources\Tabs\Input Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaNameDialog.h">
+      <Filter>Sources\Tabs\Toos Tab\Area Name</Filter>
+    </ClInclude>
+    <ClInclude Include="TabToolsDialog.h">
+      <Filter>Sources\Tabs\Toos Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="GetGroupID.h">
+      <Filter>Sources\Tabs\Groups Tab\Group ID</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterScriptIDDialog.h">
+      <Filter>Sources\Tabs\Groups Tab\Script ID</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupManagerDialog.h">
+      <Filter>Sources\Tabs\Groups Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="TabAIGeneralEnterScriptIDDialog.h">
+      <Filter>Sources\Tabs\AI General Tab\Enter Script ID</Filter>
+    </ClInclude>
+    <ClInclude Include="TabAIGeneralSetPositionTypeDialog.h">
+      <Filter>Sources\Tabs\AI General Tab\Enter Position Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TabAIGeneralDialog.h">
+      <Filter>Sources\Tabs\AI General Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="TabTileEditDialog.h">
+      <Filter>Sources\Tabs\Terrain Tab\Tile Edit Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="TabTerrainAltitudesDialog.h">
+      <Filter>Sources\Tabs\Terrain Tab\Terrain Altitudes Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="TabTerrainFieldsDialog.h">
+      <Filter>Sources\Tabs\Terrain Tab\Fields Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="FenceSetupWindow.h">
+      <Filter>Sources\Tabs\Objects Tab\Fences Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="TabSimpleObjectsDiplomacyDialog.h">
+      <Filter>Sources\Tabs\Objects Tab\Simple Objects Tab\Diplomacy</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupFilterDialog.h">
+      <Filter>Sources\Tabs\Objects Tab\Simple Objects Tab\Set Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="TabSimpleObjectsDialog.h">
+      <Filter>Sources\Tabs\Objects Tab\Simple Objects Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="BridgeSetupDialog.h">
+      <Filter>Sources\Tabs\Objects Tab\Bridges Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorStripeObjectsState.h">
+      <Filter>Sources\States\Vector Objects State\Vector Stripe Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorObjectsState.h">
+      <Filter>Sources\States\Vector Objects State</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMultiState.h">
+      <Filter>Sources\States\Input state</Filter>
+    </ClInclude>
+    <ClInclude Include="InputState.h">
+      <Filter>Sources\States\Input state</Filter>
+    </ClInclude>
+    <ClInclude Include="StateAIGeneral.h">
+      <Filter>Sources\States\AI General State</Filter>
+    </ClInclude>
+    <ClInclude Include="StateGroups.h">
+      <Filter>Sources\States\Groups State</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawShadeState.h">
+      <Filter>Sources\States\Terrain State\3DTerrain State</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDrawState.h">
+      <Filter>Sources\States\Terrain State\Tile drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTerrainFields.h">
+      <Filter>Sources\States\Terrain State\Fields State</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainState.h">
+      <Filter>Sources\States\Terrain State</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleObjectsState.h">
+      <Filter>Sources\States\Simple Objects State</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingTools.h">
+      <Filter>Sources\Drawing Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ValuesCollector.h">
+      <Filter>Sources\Drawing Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMapBar.h">
+      <Filter>Sources\Mini Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMapDialog.h">
+      <Filter>Sources\Mini Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMapTypes.h">
+      <Filter>Sources\Mini Map</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncImageList.h">
+      <Filter>Sources\AsyncImageList</Filter>
+    </ClInclude>
+    <ClInclude Include="AIStartCommand.h">
+      <Filter>Sources\Manipulators\AIStartCommand Creation</Filter>
+    </ClInclude>
+    <ClInclude Include="AIStartCommandsDialog.h">
+      <Filter>Sources\Manipulators\AIStartCommand Creation</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservePosition.h">
+      <Filter>Sources\Manipulators\ReservePosition</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitCreation.h">
+      <Filter>Sources\Manipulators\Unit Creation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSoundInfo.h">
+      <Filter>Sources\Manipulators\Map Sound Info</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_PointPropertiesDialog.h">
+      <Filter>Sources\Manipulators\Property Editors\PointsList</Filter>
+    </ClInclude>
+    <ClInclude Include="PEPointsListDialog.h">
+      <Filter>Sources\Manipulators\Property Editors\PointsList</Filter>
+    </ClInclude>
+    <ClInclude Include="PESelectStringsDialog.h">
+      <Filter>Sources\Manipulators\Property Editors\SelectStrings</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_CreateContainerDialog.h">
+      <Filter>Sources\Composers\RMG Containers Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_PatchPropertiesDialog.h">
+      <Filter>Sources\Composers\RMG Containers Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_CreateTemplateDialog.h">
+      <Filter>Sources\Composers\RMG Templates Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_TemplateFieldPropertiesDialog.h">
+      <Filter>Sources\Composers\RMG Templates Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_TemplateGraphPropertiesDialog.h">
+      <Filter>Sources\Composers\RMG Templates Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_TemplateVSOPropertiesDialog.h">
+      <Filter>Sources\Composers\RMG Templates Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_CreateGraphDialog.h">
+      <Filter>Sources\Composers\RMG Graphs Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_GraphLinkPropertiesDialog.h">
+      <Filter>Sources\Composers\RMG Graphs Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_GraphNodePropertiesDialog.h">
+      <Filter>Sources\Composers\RMG Graphs Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_FieldObjectPropertiesDialog.h">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Objects Shells</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_FieldObjectsDialog.h">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Objects Shells</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_FieldObjectsShellPropertiesDialog.h">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Objects Shells</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_FieldTerrainDialog.h">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Terrain Shells</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_FieldTerrainShellPropertiesDialog.h">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Terrain Shells</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_FieldTilePropertiesDialog.h">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Terrain Shells</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_FieldHeightsDialog.h">
+      <Filter>Sources\Composers\RMG Fields Composer\RMG Field Heights</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG_CreateFieldDialog.h">
+      <Filter>Sources\Composers\RMG Fields Composer</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateFilterDialog.h">
+      <Filter>Sources\Create Filter Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateFilterNameDialog.h">
+      <Filter>Sources\Create Filter Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateRandomMapDialog.h">
+      <Filter>Sources\Create Random Map Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMapDialog.h">
+      <Filter>Sources\New Map Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenMapDialog.h">
+      <Filter>Sources\Open Map Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MODCollector.h">
+      <Filter>Sources\MOD Collector</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditorOptions.h">
+      <Filter>Sources\Map Editor Options</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorWindowSingleton.h">
+      <Filter>Sources\Editor Window Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="editor.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWnd.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="SetAnim.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files\Resource VSS Check Out</Filter>
+    </ClInclude>
+    <ClInclude Include="htmlhelp.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="editor.rc">
+      <Filter>Resource Files\Resource VSS Check Out</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="a7_editor.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bridges_tab.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\edit.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\editor.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\entrenchments_icon.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\entrenchments_tab.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fences_tab.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fields_tab.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\heights_tab.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\object.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\objects_tab.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pushpin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rivers_tab.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rmg_cf_heights.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rmg_cf_objects.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rmg_cf_tiles.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\roads_tab.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\terrain_tab.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="htmlhelp.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\editor.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

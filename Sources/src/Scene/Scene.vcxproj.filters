@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{c2b21083-b737-4725-a71d-2f612822f17f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{3c4597f7-949b-4e78-8f2d-2caed8bc3069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vis Objects">
+      <UniqueIdentifier>{d61eb3b7-7b1e-431e-9721-c980f35d6370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vis Objects\Icons">
+      <UniqueIdentifier>{99161fc4-cd1e-4c55-bb24-88cd21930968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Statistics System">
+      <UniqueIdentifier>{cd56ec8d-5c1a-43e7-8619-48f0d3ef2068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{6a2a82d1-4309-4b5f-b538-6fe3d137412b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cursor">
+      <UniqueIdentifier>{d909fb0b-4c41-4383-a82e-61fa3d328ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frame Selection">
+      <UniqueIdentifier>{09522f4a-8b34-4de7-826b-800d8ba622f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visitors">
+      <UniqueIdentifier>{bc669b4c-0e99-4a55-bb5e-6df21808105f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effectors">
+      <UniqueIdentifier>{f0259ef9-c9ff-4fe5-a546-94ee0882c99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundScene">
+      <UniqueIdentifier>{dead97df-e7a6-44d8-86d9-7cbe403f651f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{106e1efb-4697-4871-8aca-2bcaded692b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoPlayer">
+      <UniqueIdentifier>{0c504c18-4322-4dd5-947f-cf8395dc0dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{f5a0d4b3-dc12-48b0-bf54-eaaf3f4a54d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastSinCos">
+      <UniqueIdentifier>{005478fb-c630-4e10-8aee-5726c53a09d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depth Optimizer">
+      <UniqueIdentifier>{86834609-7ac5-4fec-80e8-528232ab9a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transition">
+      <UniqueIdentifier>{b42f7ed5-d174-4694-9ccb-31f5355baa01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{5f5844b7-ac65-432d-b887-e0c9be543be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\Builder">
+      <UniqueIdentifier>{9edb1da9-d0f1-48ae-9473-3f72836a6d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\Vector objects">
+      <UniqueIdentifier>{61c8564c-13b9-4105-854e-0be91afa6e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gamma Effect">
+      <UniqueIdentifier>{a8aa7f62-4131-4ea5-9abb-1cf41cad8b91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GlobalsLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneDraw.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneInternal.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObjectFactory.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePick.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Icon.cpp">
+      <Filter>Vis Objects\Icons</Filter>
+    </ClCompile>
+    <ClCompile Include="IconBar.cpp">
+      <Filter>Vis Objects\Icons</Filter>
+    </ClCompile>
+    <ClCompile Include="IconHPBar.cpp">
+      <Filter>Vis Objects\Icons</Filter>
+    </ClCompile>
+    <ClCompile Include="IconPic.cpp">
+      <Filter>Vis Objects\Icons</Filter>
+    </ClCompile>
+    <ClCompile Include="IconText.cpp">
+      <Filter>Vis Objects\Icons</Filter>
+    </ClCompile>
+    <ClCompile Include="BoldLineVisObj.cpp">
+      <Filter>Vis Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectVisObj.cpp">
+      <Filter>Vis Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashVisObj.cpp">
+      <Filter>Vis Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshVisObj.cpp">
+      <Filter>Vis Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteVisObj.cpp">
+      <Filter>Vis Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadVisObj.cpp">
+      <Filter>Vis Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VisObjBuilder.cpp">
+      <Filter>Vis Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSystem.cpp">
+      <Filter>Statistics System</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameSelection.cpp">
+      <Filter>Frame Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimVisitor.cpp">
+      <Filter>Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawVisitor.cpp">
+      <Filter>Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialEffector.cpp">
+      <Filter>Effectors</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixEffector.cpp">
+      <Filter>Effectors</Filter>
+    </ClCompile>
+    <ClCompile Include="CellsConglomerateContainer.cpp">
+      <Filter>SoundScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSound.cpp">
+      <Filter>SoundScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundScene.cpp">
+      <Filter>SoundScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSceneSerialize.cpp">
+      <Filter>SoundScene</Filter>
+    </ClCompile>
+    <ClCompile Include="BinkVideoPlayer.cpp">
+      <Filter>VideoPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBasedParticleSource.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSourceData.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokinParticleSource.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokinParticleSourceData.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Track.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="FastSinCos.cpp">
+      <Filter>FastSinCos</Filter>
+    </ClCompile>
+    <ClCompile Include="Transition.cpp">
+      <Filter>Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshBuilders.cpp">
+      <Filter>Terrain\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="RiverBuilder.cpp">
+      <Filter>Terrain\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainBuilder.cpp">
+      <Filter>Terrain\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainEditor.cpp">
+      <Filter>Terrain\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainRoad.cpp">
+      <Filter>Terrain\Vector objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainWater.cpp">
+      <Filter>Terrain\Vector objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorObject.cpp">
+      <Filter>Terrain\Vector objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TerraDraw.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainInternal.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerraSound.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GammaEffect.cpp">
+      <Filter>Gamma Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInternal.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObjectFactory.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Icon.h">
+      <Filter>Vis Objects\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="IconBar.h">
+      <Filter>Vis Objects\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="IconHPBar.h">
+      <Filter>Vis Objects\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="IconPic.h">
+      <Filter>Vis Objects\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="IconText.h">
+      <Filter>Vis Objects\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="BoldLineVisObj.h">
+      <Filter>Vis Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectVisObj.h">
+      <Filter>Vis Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedObjList.h">
+      <Filter>Vis Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashVisObj.h">
+      <Filter>Vis Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshVisObj.h">
+      <Filter>Vis Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjVisObj.h">
+      <Filter>Vis Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteVisObj.h">
+      <Filter>Vis Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadVisObj.h">
+      <Filter>Vis Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VisObjBuilder.h">
+      <Filter>Vis Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSystem.h">
+      <Filter>Statistics System</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameSelection.h">
+      <Filter>Frame Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimVisitor.h">
+      <Filter>Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawVisitor.h">
+      <Filter>Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialEffector.h">
+      <Filter>Effectors</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixEffector.h">
+      <Filter>Effectors</Filter>
+    </ClInclude>
+    <ClInclude Include="CellsConglomerateContainer.h">
+      <Filter>SoundScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundScene.h">
+      <Filter>SoundScene</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="BinkVideoPlayer.h">
+      <Filter>VideoPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBasedParticleSource.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSourceData.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="PFX.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokinParticleSource.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokinParticleSourceData.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Track.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="FastSinCos.h">
+      <Filter>FastSinCos</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthOptimizer.h">
+      <Filter>Depth Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Transition.h">
+      <Filter>Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="Builders.h">
+      <Filter>Terrain\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainBuilder.h">
+      <Filter>Terrain\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainRoad.h">
+      <Filter>Terrain\Vector objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainWater.h">
+      <Filter>Terrain\Vector objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorObject.h">
+      <Filter>Terrain\Vector objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainInternal.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="GammaEffect.h">
+      <Filter>Gamma Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Scene.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="cursor\attack.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\aviation.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\board.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\build_antitank.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\build_bridge.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\build_entrenchment.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\build_wire_fence.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\cancel.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\capture_artillery.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\clear_mines.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\deploy_artillery.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\entrench_self.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\fill_ru.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\follow.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\hook_artillery.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\human_resupply.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\intermission.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\leave.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\move.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\move2grid.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\place_marker.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\ranging.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\repair.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\resupply.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\rotate.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\select_enemy.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\select_friend.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\select_neutral.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\self_actions.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\set_mines.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\supress.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\swarm.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\unknown.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cursor\use_spyglasses.cur">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene.def">
+      <Filter>Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

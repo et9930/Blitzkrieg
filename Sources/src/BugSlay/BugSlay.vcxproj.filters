@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{560ab441-c386-4cbe-a516-9d60f0b9034a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="BugSlayer">
+      <UniqueIdentifier>{b829a1ec-e52a-4011-b899-8c86b7886851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f846c20a-9ce9-49de-866d-d3c1cd9030ff}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{c333d029-043b-4b1f-b801-ac655f80fc11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{090128ba-055a-4cc4-bcb3-27fd215c50b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BugSlayer.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CallStack.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CRTDBG_Internals.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagAssert.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDumperValidator.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MSJDBG.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Notification.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Psapi.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolEngine.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningsOff.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningsOn.h">
+      <Filter>BugSlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogFunctions.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogMemory.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="WndUtils.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AllocAndFillProcessModuleList.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="BSUFunctions.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="BugSlayer.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CallStack.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CrashHandler.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagAssert.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GetLoadedModules.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="HookImportedFunctionByName.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="IsNT.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MemDumperValidator.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Notification.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="NT4ProcessInfo.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="STLDebugTerminate.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="TLHELPProcessInfo.cpp">
+      <Filter>BugSlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogFunctions.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogMemory.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportAssertionDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportExceptionDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DumbPow2Alloc.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MemorySystem.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BugSlayer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="error.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="exclamation.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="BugSlayer.def">
+      <Filter>Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{946ca33d-28c5-4e4b-a33a-af6c8489e029}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Shader Compiler">
+      <UniqueIdentifier>{fd98f2e8-2b45-41a6-981d-f999d7e8fe05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{96fefefa-8f4f-4ab9-b2f7-2f129424551c}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Shader Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Shader Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderParser.h">
+      <Filter>Shader Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Shader Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="scl.cpp">
+      <Filter>Shader Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderParser.cpp">
+      <Filter>Shader Compiler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="shader2.grm" />
+  </ItemGroup>
+</Project>

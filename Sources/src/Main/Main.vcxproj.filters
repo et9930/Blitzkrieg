@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{654988f8-005a-4516-9241-142a32e4ea78}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{5c4cf03c-1a52-4893-8506-54b26b01ece9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{ef9a9605-a2cb-41e0-b48c-1076d8580811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GDB">
+      <UniqueIdentifier>{4d0b3f1e-cc4a-401b-90c6-f8ab29d131af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{cbba6c1d-56d2-409d-a47c-4ea09e202438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{79c0f780-e5f3-4a66-9672-816f41ba2c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transceiver">
+      <UniqueIdentifier>{31a31ba3-81f2-46b1-862b-2f20194416b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer">
+      <UniqueIdentifier>{4b0d9cad-0f04-4bd5-99e0-4c75dfaa39c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Messages">
+      <UniqueIdentifier>{3cd92f75-4028-4b36-9f05-7b86a98b345a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommandsHistory">
+      <UniqueIdentifier>{00f1beac-03aa-4b86-a326-b2c3514d4714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenario Tracker">
+      <UniqueIdentifier>{8216ecaa-b3f5-4462-8832-11207889fac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Beta Protection">
+      <UniqueIdentifier>{f8c01d1c-b99c-4305-9686-45ada8b823ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="iMain.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="iMainClassIDs.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="iMainCommands.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="iMainInternal.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MainLoopCommands.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MainObjectFactory.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMapHelper.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimerInternal.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDB.h">
+      <Filter>GDB</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStats.h">
+      <Filter>GDB</Filter>
+    </ClInclude>
+    <ClInclude Include="RPGStats.h">
+      <Filter>GDB</Filter>
+    </ClInclude>
+    <ClInclude Include="EmergencySave.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="FilesInspector.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="TextObject.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSystem.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="AILogicCommand.h">
+      <Filter>Transceiver</Filter>
+    </ClInclude>
+    <ClInclude Include="AILogicCommandInternal.h">
+      <Filter>Transceiver</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlayerTransceiver.h">
+      <Filter>Transceiver</Filter>
+    </ClInclude>
+    <ClInclude Include="SinglePlayerTransceiver.h">
+      <Filter>Transceiver</Filter>
+    </ClInclude>
+    <ClInclude Include="Transceiver.h">
+      <Filter>Transceiver</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatMessages.h">
+      <Filter>Multiplayer\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCreationMessages.h">
+      <Filter>Multiplayer\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Messages.h">
+      <Filter>Multiplayer\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="MessagesStore.h">
+      <Filter>Multiplayer\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="ServersListMessages.h">
+      <Filter>Multiplayer\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCreation.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCreationInterfaces.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlaying.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSpyChat.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSpyPeerChat.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LanChat.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiplayer.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerConsts.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerInternal.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessages.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerInfo.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ServersList.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandsHistory.h">
+      <Filter>CommandsHistory</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandsHistoryInterface.h">
+      <Filter>CommandsHistory</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveCommandsHistoryCommand.h">
+      <Filter>CommandsHistory</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerScenarioInfo.h">
+      <Filter>Scenario Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSkill.h">
+      <Filter>Scenario Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenarioStatistics.h">
+      <Filter>Scenario Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenarioTracker.h">
+      <Filter>Scenario Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenarioTracker2Internal.h">
+      <Filter>Scenario Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenarioTrackerTypes.h">
+      <Filter>Scenario Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="UserProfile.h">
+      <Filter>Scenario Tracker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="iMainInternal.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLoopCommands.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="MainObjectFactory.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomMapHelper.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimerInternal.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDB.cpp">
+      <Filter>GDB</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStats.cpp">
+      <Filter>GDB</Filter>
+    </ClCompile>
+    <ClCompile Include="RPGStats.cpp">
+      <Filter>GDB</Filter>
+    </ClCompile>
+    <ClCompile Include="FilesInspector.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="InitGlobalVarConsts.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Initialization.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadDLLs.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="TextObject.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="AILogicCommand.cpp">
+      <Filter>Transceiver</Filter>
+    </ClCompile>
+    <ClCompile Include="AILogicCommandInternal.cpp">
+      <Filter>Transceiver</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPlayerTransceiver.cpp">
+      <Filter>Transceiver</Filter>
+    </ClCompile>
+    <ClCompile Include="SinglePlayerTransceiver.cpp">
+      <Filter>Transceiver</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatMessages.cpp">
+      <Filter>Multiplayer\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCreationMessages.cpp">
+      <Filter>Multiplayer\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="MessagesStore.cpp">
+      <Filter>Multiplayer\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="ServersListMessages.cpp">
+      <Filter>Multiplayer\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="assert.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCreation.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlaying.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSpyChat.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSpyPeerChat.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="LanChat.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplayerInternal.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerInfo.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ServersList.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandsHistory.cpp">
+      <Filter>CommandsHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerScenarioInfo.cpp">
+      <Filter>Scenario Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSkill.cpp">
+      <Filter>Scenario Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenarioStatistics.cpp">
+      <Filter>Scenario Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenarioTracker2Internal.cpp">
+      <Filter>Scenario Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="UserProfile.cpp">
+      <Filter>Scenario Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="BetaKey.cpp">
+      <Filter>Beta Protection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo.txt" />
+  </ItemGroup>
+</Project>

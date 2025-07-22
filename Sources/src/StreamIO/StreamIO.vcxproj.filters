@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{33d1351f-9d2e-4893-990e-163c8e7e8ac3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Stream IO">
+      <UniqueIdentifier>{d0eae3a2-6cb9-4d16-9573-f6a14abbce33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stream IO\Zip">
+      <UniqueIdentifier>{df2cf09b-090d-4d05-8b2c-9525a08df239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBIO">
+      <UniqueIdentifier>{cf25230c-a0d5-460e-8d30-8a5025d300ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBIO\Ini">
+      <UniqueIdentifier>{efe453f1-2070-418b-9b71-a57d7f8e1ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBIO\XML">
+      <UniqueIdentifier>{6b3d50d1-f900-491f-beb1-0a65c05a221f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SaveLoad">
+      <UniqueIdentifier>{32ed5bbf-7204-4f39-9318-e744ef98c63c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SaveLoad\Structure Saver">
+      <UniqueIdentifier>{0bfd6ebd-90e1-4c6e-9618-96a49cb00f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SaveLoad\DataTree">
+      <UniqueIdentifier>{b2ecf887-48d0-43fc-ab75-819d942623f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{f554f5d1-a46c-4d47-9bd4-05257341a343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RandomGen">
+      <UniqueIdentifier>{9a2dacb2-c1c8-42b1-9a89-810925b87156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{dcf929e2-146e-4f19-bddb-149c19e69015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OptionSystem">
+      <UniqueIdentifier>{d26503a5-bb55-4797-acac-8e716bc22f85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GlobalsLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipFile.cpp">
+      <Filter>Stream IO\Zip</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipFileSystem.cpp">
+      <Filter>Stream IO\Zip</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFileSystem.cpp">
+      <Filter>Stream IO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem.cpp">
+      <Filter>Stream IO</Filter>
+    </ClCompile>
+    <ClCompile Include="MemFileSystem.cpp">
+      <Filter>Stream IO</Filter>
+    </ClCompile>
+    <ClCompile Include="ModFileSystem.cpp">
+      <Filter>Stream IO</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveLoadSystem.cpp">
+      <Filter>Stream IO</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>DBIO\Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>DBIO\Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTableXML.cpp">
+      <Filter>DBIO\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Streams.cpp">
+      <Filter>SaveLoad\Structure Saver</Filter>
+    </ClCompile>
+    <ClCompile Include="StructureSaver2.cpp">
+      <Filter>SaveLoad\Structure Saver</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTreeXML.cpp">
+      <Filter>SaveLoad\DataTree</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleBuffer.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVarsInternal.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGenInternal.cpp">
+      <Filter>RandomGen</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionSystemInternal.cpp">
+      <Filter>OptionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamIOObjectFactory.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_user_config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipFile.h">
+      <Filter>Stream IO\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipFileSystem.h">
+      <Filter>Stream IO\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFileSystem.h">
+      <Filter>Stream IO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAttribs.h">
+      <Filter>Stream IO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Stream IO</Filter>
+    </ClInclude>
+    <ClInclude Include="MemFileSystem.h">
+      <Filter>Stream IO</Filter>
+    </ClInclude>
+    <ClInclude Include="ModFileSystem.h">
+      <Filter>Stream IO</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveLoadSystem.h">
+      <Filter>Stream IO</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamAdaptor.h">
+      <Filter>Stream IO</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamIO.h">
+      <Filter>Stream IO</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamIOHelper.h">
+      <Filter>Stream IO</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>DBIO\Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>DBIO\Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTableXML.h">
+      <Filter>DBIO\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="DBIO.h">
+      <Filter>DBIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Streams.h">
+      <Filter>SaveLoad\Structure Saver</Filter>
+    </ClInclude>
+    <ClInclude Include="StructureSaver2.h">
+      <Filter>SaveLoad\Structure Saver</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTreeXML.h">
+      <Filter>SaveLoad\DataTree</Filter>
+    </ClInclude>
+    <ClInclude Include="DTHelper.h">
+      <Filter>SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressHook.h">
+      <Filter>SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="SSHelper.h">
+      <Filter>SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="StructureSaver.h">
+      <Filter>SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleBuffer.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars2.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVarsInternal.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGen.h">
+      <Filter>RandomGen</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGenInternal.h">
+      <Filter>RandomGen</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsConvert.h">
+      <Filter>OptionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionSystem.h">
+      <Filter>OptionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionSystemInternal.h">
+      <Filter>OptionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamIOObjectFactory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamIOTypes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StreamIO.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="StreamIO.def">
+      <Filter>Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
